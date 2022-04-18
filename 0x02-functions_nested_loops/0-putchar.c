@@ -1,19 +1,22 @@
 #include "main.h"
 
 /**
- * main - Prints Putchar as a message.
+ * main - Prints Putchar as entry block
+ *
+ * void - no arguments
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int str[] = {112, 117, 116, 067, 72, 97, 82};
-	int count, sz;
+	char ermias[] = "_putchar";
 
-	sz = sizeof(str) / sizeof(int);
-	for (count = 0; count < sz; count++)
+	int count;
+
+	
+	for (count = 0; count < 8; count++)
 	{
-		_putchar(str[count]);
+		_putchar(ermias[count]);
 	}
 	_putchar('\n');
 	return (0);
