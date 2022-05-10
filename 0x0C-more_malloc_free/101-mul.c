@@ -11,6 +11,7 @@
  */
 void _is_zero(char *argv[])
 {
+
 	int i, isn1 = 1, isn2 = 1;
 
 	for (i = 0; argv[1][i]; i++)
@@ -71,6 +72,9 @@ int _checknum(char *argv[], int n)
 			exit(98);
 		}
 
+	98);
+		}
+
 	return (ln);
 }
 
@@ -84,7 +88,6 @@ int _checknum(char *argv[], int n)
  */
 int main(int argc, char *argv[])
 {
-
 	int ln1, ln2, lnout, add, addl, i, j, k, ca;
 	char *nout;
 
